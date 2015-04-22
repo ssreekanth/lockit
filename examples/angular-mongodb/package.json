@@ -8,9 +8,9 @@
     "cookie-session": "latest",
     "express": "latest",
     "jade": "latest",
-    "lockit": "latest",
+    "lockit": "git+https://github.com/ssreekanth/lockit.git",
     "lockit-mongodb-adapter": "^0.4.2",
-    "lockit-utils": "latest",
+    "lockit-utils": "git+https://github.com/ssreekanth/lockit-utilities.git",
     "morgan": "latest",
     "serve-favicon": "latest"
   }
