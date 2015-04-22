@@ -94,7 +94,7 @@ describe('lockit', function() {
 
     before(function(done) {
       var config = require('./config');
-      config.port = 3000;
+      config.port = 9000;
       config.rest = false;
       app = require('./app.js')(config);
       done();

@@ -144,7 +144,7 @@ Lockit.prototype.rest = function() {
           basedir: req.app.get('views')
         });
       } else {
-        res.sendfile(path.join(__parentDir, that.config.rest.index));
+        res.sendFile(path.join(__parentDir, that.config.rest.index));
       }
     });
   });
